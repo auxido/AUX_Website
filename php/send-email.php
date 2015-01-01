@@ -1,6 +1,7 @@
 <?php	
 	// Your Email
 	$recipient = "squad@auxnyc.com.test-google-a.com"; // PLEASE SET YOUR EMAIL ADDRESS
+	// $recipient = "harrison@auxnyc.com.test-google-a.com";
 	
 	// Check $recipient
 	if($recipient === '') {
@@ -42,9 +43,10 @@
 	}
 
 	// Headers
-	$headers = 'From: '.$fname.' <'.$email.'>' . "\r\n";
-	$headers .= 'Reply-To: '.$email.'' . "\r\n";
-	$headers .= 'X-Mailer: PHP/' . phpversion();
+	// $headers = 'From: '.$fname.' <'.$email.'>' . "\r\n";
+	// $headers .= 'Reply-To: '.$email.'' . "\r\n";
+	// $headers .= 'X-Mailer: PHP/' . phpversion();
+	$headers = "From:" . $email;
 
 	// Subject
 	$subject = "New email from contact form";
@@ -55,8 +57,8 @@
 	$email_content .= "Website: $website\n";
 	$email_content .= "Email: $email\n\n";
 	$email_content .= "Message:\n$message\n\n\n";
-	$email_content .= "CLIENT IP:\n".get_client_ip()."\n";
-	$email_content .= "HOST IP:\n".$_SERVER['SERVER_ADDR']."\n";
+	// $email_content .= "CLIENT IP:\n".get_client_ip()."\n";
+	// $email_content .= "HOST IP:\n".$_SERVER['SERVER_ADDR']."\n";
 
 // Check if sent
 try {
