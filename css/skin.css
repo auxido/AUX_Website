@@ -1134,6 +1134,15 @@ h5.project-title{
 	background-image: none;
 }
 
+/* Hero Quote Adjustment */
+blockquote.border {
+	border-left: 1px solid #f6f9fa !important;
+}
+
+blockquote p {
+	color: #f6f9fa !important;
+}
+
 /* Hero 2 */
 .hero-2-homepage-1{
 	background-image: url(../images/slider/slide-7-fw.jpg);
@@ -1141,10 +1150,45 @@ h5.project-title{
 
 /* Hero 4 */
 .hero-4-homepage-1{
-	background-image: url(../images/slider/slide-1-fw.jpg);
+	background-image: url(../images/hz_adds/placeholder_1.jpg);
 }
 .hero-4-homepage-1 > .row:before{
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(53,55,50,1);
+}
+
+.hero-4-homepage-2{
+	background-image: url(../images/hz_adds/placeholder_5.jpg);
+}
+.hero-4-homepage-2 > .row:before{
+	background-color: rgba(246,249,250,1);
+}
+
+@media only screen and (max-width: 768px) {
+	.hero-4-homepage-1 > .row:before {
+		background-color: rgba(53,55,50,0.7);
+	}
+	.hero-4-homepage-2 > .row:before {
+		background-color: rgba(53,55,50,0.7);
+	}
+
+	blockquote {
+		/*display: none;*/
+	}
+
+	.kill_on_mobile {
+		display: none;
+	}
+
+	.quote_inverse {
+		color: #353732 !important;
+	}
+	blockquote.quote_inverse_2{
+		border-left: 1px solid #353732 !important;
+	}
+
+	.how_mobile {
+		color: #f6f9fa !important;
+	}
 }
 
 /* Hero 5 */
@@ -1567,6 +1611,16 @@ h5.project-title{
 }
 .fs-section-5{
 	background-image: url(../images/hz_adds/placeholder_2.jpg) !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.fs_hide_mobile {
+		display: none;
+	}
+
+	.fullscreen-section.no-overlay .fullscreen-inner {
+		background: rgba(246,249,250, 0) !important;
+	}
 }
 
 /*------------------------------------------------------------------
@@ -2423,6 +2477,10 @@ a.disabled .text-line{
 	.accordion li.active a {
 		border-bottom-color: #353732;
 	}
+
+	.mobile_switch {
+		background-color: #353732 !important;
+	}
 }
 
 /* Tabs */
@@ -2574,7 +2632,10 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/slider/slide-7-fw@2x.jpg);
 	}
 	.hero-4-homepage-1{
-		background-image: url(../images/slider/slide-1-fw@2x.jpg);
+		background-image: url(../images/hz_adds/placeholder_1.jpg);
+	}
+	.hero-4-homepage-2{
+		background-image: url(../images/hz_adds/placeholder_5.jpg);
 	}
 	.hero-5-homepage-1 > .row:after{
 		background-image: url(../images/hz_adds/placeholder_1.jpg);
