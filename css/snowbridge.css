@@ -125,8 +125,8 @@ Copyright: ThemeMountain
 	background: #666666;
 	-webkit-animation:preloader 1s ease infinite;
 	   -moz-animation:preloader 1s ease infinite;
-	     -o-animation:preloader 1s ease infinite;
-	        animation:preloader 1s ease infinite;
+		 -o-animation:preloader 1s ease infinite;
+			animation:preloader 1s ease infinite;
 }
 @-webkit-keyframes preloader{
 	from { opacity: 1;	-webkit-transform: scale( 1 ); }

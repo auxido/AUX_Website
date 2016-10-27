@@ -1593,7 +1593,7 @@ blockquote p {
 */
 
 .fullscreen-section .fullscreen-inner{
-	background: rgba(0,0,0,0.35);
+	background: rgba(0,0,0,0.7);
 }
 
 /* Presentation Page */
@@ -1609,8 +1609,10 @@ blockquote p {
 .fs-section-4{
 	background-image: url(../images/slider/slide-7-fs.jpg);
 }
+
+/* CHANGE ME FOR #ABOUT SECTION */
 .fs-section-5{
-	background-image: url(../images/hz_adds/placeholder_2.jpg) !important;
+	background-image: url(../images/hz_adds/placeholder_3.jpg) !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -2780,6 +2782,6 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/slider/slide-7-fs@2x.jpg);
 	}
 	.fs-section-5{
-		background-image: url(../images/slider/slide-7-fs@2x.jpg);
+		background-image: url(../images/hz_adds/placeholder_2.jpg);
 	}
 }
