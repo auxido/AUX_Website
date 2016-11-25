@@ -1,6 +1,6 @@
 <?php	
 	// Your Email
-	$recipient = "harrison@zafrin.net"; // PLEASE SET YOUR EMAIL ADDRESS
+	$recipient = "squad@auxnyc.com.test-google-a.com"; // PLEASE SET YOUR EMAIL ADDRESS
 	
 	// Check $recipient
 	if($recipient === '') {
@@ -42,12 +42,12 @@
 	}
 
 	// Headers
-	$headers = 'From: '.$fname.' <'.$email.'>' . "\n";
-	$headers .= 'Reply-To: '.$email.'' . "\n";
+	$headers = 'From: '.$fname.' <'.$email.'>' . "\r\n";
+	$headers .= 'Reply-To: '.$email.'' . "\r\n";
 	$headers .= 'X-Mailer: PHP/' . phpversion();
 
 	// Subject
-	$subject = "AUX - Who The Fuck's Gonna Read This Shit";
+	$subject = "New email from contact form";
 
 	// Build Message
 	$email_content = "First Name: $fname\n";
