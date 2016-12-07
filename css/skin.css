@@ -591,6 +591,10 @@ h5.project-title{
 	background-color: #e62739 !important;
 }
 
+.bkg_auxblack {
+	background-color: #353732 !important;
+}
+
 .footer-1 .footer-top{
 	padding-top: 9rem;
 	padding-bottom: 6rem;
@@ -1621,7 +1625,8 @@ blockquote p {
 	}
 
 	.fullscreen-section.no-overlay .fullscreen-inner {
-		background: rgba(246,249,250, 0) !important;
+		/*background: rgba(246,249,250, 0) !important;*/
+		background: rgba(247,78,66,1);
 	}
 }
 
