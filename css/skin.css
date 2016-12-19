@@ -32,6 +32,8 @@ Copyright: ThemeMountain
 
 -------------------------------------------------------------------*/
 
+.horizon{ opacity:"0"; }
+
 /*------------------------------------------------------------------
 [1. Typography]
 */
@@ -366,6 +368,7 @@ h5.project-title{
 	}
 	h5{
 		font-size: 1.6rem;
+		color: #f6f9fa;
 	}
 	h6{
 		font-size: 1.2rem;
@@ -1615,9 +1618,9 @@ blockquote p {
 }
 
 /* CHANGE ME FOR #ABOUT SECTION */
-.fs-section-5{
-	background-image: url(../images/hz_adds/placeholder_3.jpg) !important;
-}
+/*.fs-section-5{
+	background-image: url(../images/hz_adds/AboutUs.jpg);
+}*/
 
 @media only screen and (max-width: 768px) {
 	.fs_hide_mobile {
@@ -2787,6 +2790,6 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/slider/slide-7-fs@2x.jpg);
 	}
 	.fs-section-5{
-		background-image: url(../images/hz_adds/placeholder_2.jpg);
+		background-image: url(../images/hz_adds/AboutUs.jpg);
 	}
 }

@@ -14,11 +14,16 @@
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
 	<link rel="stylesheet" href="css/skin.css" />
-	
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+
+	<!-- Horizon -->
+	<script type="text/javascript" src="js/jquery.tm.horizon.min.js"></script>
 
 	<!-- Snowbridge -->
 	<!-- <link rel="stylesheet" href="css/snowbridge.css" /> -->
-	<!-- <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<!-- 
 	<script type="text/javascript" src="js/jquery.tm.snowbridge.min.js"></script> -->
 
 	<!--[if lt IE 9]>
@@ -147,14 +152,13 @@
 					<div class="parallax fixed-height window-height" data-src="images/hz_adds/hello.jpg" data-retina>
 						<div class="tmp-content">
 							<div class="tmp-content-inner center">
-								<div class="row">
-									<div class="column width-12 horizon">
+								<div data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="1" class="row horizon">
+									<div class="column width-12">
 										<h1 data-parallax="true" data-speed="0.2" data-direction="up" class="title-xlarge color-white weight-bold lspacing-medium mb-30 horizon" data-animate-in="transY:60px;delay:0;duration:1000ms;" data-threshold="1">
 											Hello, We're AUX
 										</h1>
 										<div class="clear"></div>
-										<a href="#WHY" data-offset="-60" class="scroll-link animated-link text-xlarge color-white"
-										data-animate-in="transY:60px;delay:500;duration:1000ms;" data-threshold="1">
+										<a href="#WHY" data-offset="-60" class="scroll-link animated-link text-xlarge color-white">
 										<span class="text-line bkg-white"></span>Our mission is to sonify your story, ensuring your brand is heard no matter how loud the world gets.</a>
 									</div>
 								</div>
@@ -168,8 +172,8 @@
 				<section id="WHY" class="section-block left hero-4 hero-4-homepage-1">
 					<div class="row">
 						<div class="column width-6">
-							<div class="hero-content split-hero-content">
-								<div class="hero-content-inner">
+							<div data-animate-in="transX:-100px;delay:0;duration:1000ms;" data-threshold="0.5" class="hero-content split-hero-content horizon">
+								<div class="hero-content-inner" >
 									<h2 class="color-white weight-bold mb-30">Why?</h2>
 									<h5 class="color-white">We believe in sound's ability to evoke passion, loyalty, and <strong>inspiration.</strong></h5>
 									<p class="color-white">Strategic audio benefits you in the same ways your visual identity does: <strong>communicating</strong> your brand's values with <strong>consistency</strong>, <strong>differentiating</strong> you from your competitors, and <strong>enveloping</strong> your audience into an experience that is uniquely yours.</p>
@@ -180,9 +184,6 @@
 						<div class="column width-6 kill_on_mobile">
 							<div class="hero-content split-hero-content">
 								<div class="hero-content-inner">
-									<!-- <blockquote class="border">
-										<p>We believe in sound's ability to evoke passion, loyalty, and <strong>inspiration.</strong></p>
-									</blockquote> -->
 								</div>
 							</div>
 						</div>
@@ -196,14 +197,11 @@
 						<div class="column width-6 kill_on_mobile">
 							<div class="hero-content split-hero-content">
 								<div class="hero-content-inner">
-									<!-- <blockquote class="border quote_inverse_2">
-										<p class="quote_inverse">We identify how customers interact with your brand and turn those <strong>moments</strong> into emotionally charged memorable experiences.</p>
-									</blockquote> -->
 								</div>
 							</div>
 						</div>
 						<div class="column width-6">
-							<div class="hero-content split-hero-content">
+							<div data-animate-in="transX:100px;delay:0;duration:1000ms;" data-threshold="0.5" class="hero-content split-hero-content horizon">
 								<div class="hero-content-inner">
 									<h2 class="auxblack weight-bold mb-30 how_mobile">How?</h2>
 									<h5>We identify how customers interact with your brand and turn those <strong>moments</strong> into emotionally charged memorable experiences.</h5>
@@ -216,15 +214,15 @@
 				</section>
 				<!-- Hero Section 5 End Right -->
 
-				<div id="fs-6" class="section-block fullscreen-section background-cover background-fixed content-below-on-mobile bkg-white" data-width="2500" data-height="1667">
+				<div id="fs-6" class="section-block fullscreen-section background-cover content-below-on-mobile" data-width="2500" data-height="1667">
 					<div class="background-image-wrapper">
 						<div class="background-image fs-section-5 fs_hide_mobile"></div>
 					</div>
 					<div class="fullscreen-inner">
-						<div class="row">
+						<div data-animate-in="transY:60px;delay:0;duration:1000ms;" data-threshold="0.5" class="row horizon">
 							<div class="column width-12">
 							<h2 class="color-white weight-bold mb-30">About Us</h2>
-						</div>
+							</div>
 						<div class="column width-6">
 							<p class="lead color-white">Across every medium, platform, and experience, we create inspiring audio that feels intentional.</p>
 							<p class="color-white">We are a team of experienced composers, technologists, users, and enthusiasts. We continually audit consumer insights and client feedback to understand where and how sound is successful in today's world.</p>
@@ -239,7 +237,7 @@
 										<div id="accordion-1-panel-1">
 											<div class="accordion-content">
 												<p class="color-white">We don’t use presets, re-use assets, or lose sight of the competitive landscape and your initiative's unique needs.  We start from scratch to build a modern, thoughtful, and emotionally driven audio aesthetic for your brand.</p>
-												<p class="color-white">Once we define your brand's voice, we work with you to develop the assets you need to make your next marketing campaign as effective as possible.  We understand that a brand's needs evolve over time and are ready to evolve with you to meet those needs.</p>
+												<p class="color-white">Once we define your brand's voice, we work with you to develop the assets you need to make your next marketing campaign as effective as possible.  We understand that a brand's needs evolve over time and we're ready to evolve with you to meet those needs.</p>
 											</div>
 										</div>
 									</li>
@@ -277,7 +275,7 @@
 					<div class="section-block replicable-content bkg-auxwhite">
 						<div class="row">
 							<div class="column width-12 left">
-								<h2 class="weight-bold mb-30 auxblack">Our Work</h2>
+								<h2 data-animate-in="transX:-100px;delay:0;duration:1000ms;" data-threshold="0.5" class="weight-bold mb-30 auxblack horizon">Our Work</h2>
 							</div>
 						</div>
 					</div>
@@ -420,7 +418,7 @@
 
 				<!--Contact Form -->
 				<section id="contact" class="section-block replicable-content contact-2">
-					<div class="row">
+					<div data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="0.5" class="row horizon">
 						<div class="column width-12">
 							<h2 class="weight-bold mb-30 auxblack">Get In Touch</h2>
 						</div>
