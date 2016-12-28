@@ -42,8 +42,16 @@ Copyright: ThemeMountain
 	color: #353732 !important;
 }
 
+.black-line {
+	background-color: #353732;
+}
+
 .auxwhite {
 	color: #f6f9fa !important;
+}
+
+.color-auxred {
+	color: #f74e42 !important;
 }
 
 body,
@@ -1155,16 +1163,24 @@ blockquote p {
 	background-image: url(../images/slider/slide-7-fw.jpg);
 }
 
+/* Hero 3 */
+.hero-3-ethona{
+	background-image: url(../images/hz_adds/ethona_01.jpg);
+}
+.white-card {
+	background-color: #f6f9fa !important;
+}
+
 /* Hero 4 */
 .hero-4-homepage-1{
-	background-image: url(../images/hz_adds/placeholder_1.jpg);
+	background-image: url(../images/hz_adds/about_01.jpg);
 }
 .hero-4-homepage-1 > .row:before{
 	background-color: rgba(53,55,50,1);
 }
 
 .hero-4-homepage-2{
-	background-image: url(../images/hz_adds/placeholder_5.jpg);
+	background-image: url(../images/hz_adds/about_02.jpg);
 }
 .hero-4-homepage-2 > .row:before{
 	background-color: rgba(246,249,250,1);
@@ -1200,10 +1216,10 @@ blockquote p {
 
 /* Hero 5 */
 .hero-5-homepage-1 > .row:after{
-	background-image: url(../images/hz_adds/placeholder_1.jpg);
+	background-image: url(../images/hz_adds/about_01.jpg);
 }
 .hero-5-homepage-2 > .row:after{
-	background-image: url(../images/hz_adds/placeholder_5.jpg);
+	background-image: url(../images/hz_adds/about_02.jpg);
 }
 .hero-5-homepage-3 > .row:after{
 	background-image: url(../images/generic/hero-half-3.jpg);
@@ -1406,10 +1422,10 @@ blockquote p {
 	background-size: 75% !important;
 }
 .project-5-1{
-	background-image: url(../images/portfolio/project-5/iphone-fs-1@2x.jpg);
+	background-image: url(../images/hz_adds/ethona_topcompetitors.jpg);
 }
 .project-5-2{
-	background-image: url(../images/portfolio/project-5/iphone-fs-2@2x.jpg);
+	background-image: url(../images/hz_adds/ethona_images/lookbook_768_5@2x.jpg);
 }
 .hero-5-project-5 > .row:after{
 	background-image: url(../images/portfolio/project-5/hero-half-1@2x.jpg);
@@ -1618,9 +1634,9 @@ blockquote p {
 }
 
 /* CHANGE ME FOR #ABOUT SECTION */
-/*.fs-section-5{
+.fs-section-5{
 	background-image: url(../images/hz_adds/AboutUs.jpg);
-}*/
+}
 
 @media only screen and (max-width: 768px) {
 	.fs_hide_mobile {
@@ -2641,20 +2657,25 @@ only screen and (				min-resolution: 2dppx) {
 	.hero-2-homepage-1{
 		background-image: url(../images/slider/slide-7-fw@2x.jpg);
 	}
+
+	.hero-3-ethona{
+		background-image: url(../images/hz_adds/ethona_01.jpg);
+	}
+
 	.hero-4-homepage-1{
-		background-image: url(../images/hz_adds/placeholder_1.jpg);
+		background-image: url(../images/hz_adds/about_01.jpg);
 	}
 	.hero-4-homepage-2{
-		background-image: url(../images/hz_adds/placeholder_5.jpg);
+		background-image: url(../images/hz_adds/about_02.jpg);
 	}
 	.hero-5-homepage-1 > .row:after{
-		background-image: url(../images/hz_adds/placeholder_1.jpg);
+		background-image: url(../images/hz_adds/about_01.jpg);
 	}
 	.hero-5-homepage-2 > .row:after{
-		background-image: url(../images/hz_adds/placeholder_5.jpg);
+		background-image: url(../images/hz_adds/about_02.jpg);
 	}
 	.hero-5-homepage-3 > .row:after{
-		background-image: url(../images/hz_adds/placeholder_1.jpg);
+		background-image: url(../images/hz_adds/about_01.jpg);
 	}
 
 	/* About */
