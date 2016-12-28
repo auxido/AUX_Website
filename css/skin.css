@@ -54,6 +54,10 @@ Copyright: ThemeMountain
 	color: #f74e42 !important;
 }
 
+.font-opensans {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif !important; 
+}
+
 body,
 .box.xlarge{
 	letter-spacing: 0;
@@ -1427,6 +1431,9 @@ blockquote p {
 .project-5-2{
 	background-image: url(../images/hz_adds/ethona_images/lookbook_768_5@2x.jpg);
 }
+.project-5-3{
+	background-image: url(../images/hz_adds/ethona_images/EthonaSS2016_StyleGuide_02.jpg);
+}
 .hero-5-project-5 > .row:after{
 	background-image: url(../images/portfolio/project-5/hero-half-1@2x.jpg);
 }
@@ -2540,7 +2547,7 @@ a.disabled .text-line{
 }
 .tabs .tab-nav > li.active a{
 	border-bottom-color: #232323;
-	color: #232323;
+	color: #555;
 }
 .tabs .tab-nav > li a.active .text-line{
 	background-color: #232323;
