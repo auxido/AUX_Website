@@ -429,7 +429,7 @@ h5.project-title{
 		background: #f4f4f4;
 	}
 	.fullscreen-section .background-on-mobile *{
-		color: #666 !important;
+		color: #f6f9fa !important;
 	}
 	.fullscreen-section .background-on-mobile h1,
 	.fullscreen-section .background-on-mobile h2,
@@ -437,7 +437,7 @@ h5.project-title{
 	.fullscreen-section .background-on-mobile h4,
 	.fullscreen-section .background-on-mobile h5,
 	.fullscreen-section .background-on-mobile h6{
-		color: #232323 !important;
+		color: #f6f9fa !important;
 	}
 }
 
@@ -1216,6 +1216,7 @@ blockquote p {
 	background-color: rgba(246,249,250,1);
 }
 
+/* HZ MOBILE TWEAKS */
 @media only screen and (max-width: 768px) {
 	.hero-4-homepage-1 > .row:before {
 		background-color: rgba(53,55,50,0.7);
@@ -1240,7 +1241,21 @@ blockquote p {
 	}
 
 	.how_mobile {
-		color: #f6f9fa !important;
+		color: #353732 !important;
+	}
+
+	.ebu_mobile {
+		color: #353732 !important;
+	}
+
+	.bkg-auxwhite-mobile {
+		background-color: #f6f9fa !important;
+		border-color: #f6f9fa !important;
+	}
+
+	.bkg-auxblack-mobile {
+		background-color: #353732 !important;
+		border-color: #353732 !important;
 	}
 }
 
