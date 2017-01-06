@@ -255,6 +255,20 @@ h5.project-title{
 	opacity: 0.7;
 }
 
+/*.overlay-playhead {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}*/
+
+.overlay-playhead:hover {
+	opacity: 0;
+	-webkit-transition: all 1000ms cubic-bezier(.165,.84,.44,1) 400ms;
+	transition: all 1000ms cubic-bezier(.165,.84,.44,1) 400ms;
+	-webkit-transform: translateY(125%);
+	transform: translateY(125%);
+}
+
 .overlay-info .project-title, 
 .overlay-info .project-description, 
 .overlay-info span > span > span {
@@ -1169,7 +1183,7 @@ blockquote p {
 
 /* Hero 3 */
 .hero-3-ethona{
-	background-image: url(../images/hz_adds/ethona_01.jpg);
+	background-image: url(../images/hz_adds/06_ethona_case_study.jpg);
 }
 .white-card {
 	background-color: #f6f9fa !important;
@@ -1177,14 +1191,14 @@ blockquote p {
 
 /* Hero 4 */
 .hero-4-homepage-1{
-	background-image: url(../images/hz_adds/about_01.jpg);
+	background-image: url(../images/hz_adds/02_why.jpg);
 }
 .hero-4-homepage-1 > .row:before{
 	background-color: rgba(53,55,50,1);
 }
 
 .hero-4-homepage-2{
-	background-image: url(../images/hz_adds/about_02.jpg);
+	background-image: url(../images/hz_adds/why.jpg);
 }
 .hero-4-homepage-2 > .row:before{
 	background-color: rgba(246,249,250,1);
@@ -1220,11 +1234,20 @@ blockquote p {
 
 /* Hero 5 */
 .hero-5-homepage-1 > .row:after{
-	background-image: url(../images/hz_adds/about_01.jpg);
+	background-image: url(../images/hz_adds/02_why.jpg);
 }
+.hero-5-homepage-1 > .row:before{
+	background-color: rgba(53,55,50,1);
+}
+
 .hero-5-homepage-2 > .row:after{
-	background-image: url(../images/hz_adds/about_02.jpg);
+	background-image: url(../images/hz_adds/03_how.jpg);
 }
+/*.hero-5-homepage-1 > .row:before{
+	background-color: rgba(53,55,50,1);
+}*/
+
+
 .hero-5-homepage-3 > .row:after{
 	background-image: url(../images/generic/hero-half-3.jpg);
 }
@@ -1355,7 +1378,7 @@ blockquote p {
 /* Grid */
 .masonry-stamp .caption-over-outer,
 .caption-over-outer{
-	background-color: rgba(0,0,0,.6);
+	background-color: rgba(0,0,0,0);
 }
 
 /* Project 1 */
@@ -1426,13 +1449,13 @@ blockquote p {
 	background-size: 75% !important;
 }
 .project-5-1{
-	background-image: url(../images/hz_adds/ethona_topcompetitors.jpg);
+	background-image: url(../images/hz_adds/ethona_images/02_ethona_topcompetitors.jpg);
 }
 .project-5-2{
 	background-image: url(../images/hz_adds/ethona_images/lookbook_768_5@2x.jpg);
 }
 .project-5-3{
-	background-image: url(../images/hz_adds/ethona_images/EthonaSS2016_StyleGuide_02.jpg);
+	background-image: url(../images/hz_adds/ethona_images/08_ethona_ebus_fs.jpg);
 }
 .hero-5-project-5 > .row:after{
 	background-image: url(../images/portfolio/project-5/hero-half-1@2x.jpg);
@@ -1642,7 +1665,7 @@ blockquote p {
 
 /* CHANGE ME FOR #ABOUT SECTION */
 .fs-section-5{
-	background-image: url(../images/hz_adds/AboutUs.jpg);
+	background-image: url(../images/hz_adds/04_about_us.jpg);
 }
 
 @media only screen and (max-width: 768px) {
@@ -2666,20 +2689,21 @@ only screen and (				min-resolution: 2dppx) {
 	}
 
 	.hero-3-ethona{
-		background-image: url(../images/hz_adds/ethona_01.jpg);
+		background-image: url(../images/hz_adds/06_ethona_case_study@2x.jpg);
 	}
 
 	.hero-4-homepage-1{
-		background-image: url(../images/hz_adds/about_01.jpg);
+		background-image: url(../images/hz_adds/02_why@2x.jpg);
 	}
 	.hero-4-homepage-2{
-		background-image: url(../images/hz_adds/about_02.jpg);
+		background-image: url(../images/hz_adds/why.jpg);
 	}
+
 	.hero-5-homepage-1 > .row:after{
-		background-image: url(../images/hz_adds/about_01.jpg);
+		background-image: url(../images/hz_adds/02_why@2x.jpg);
 	}
 	.hero-5-homepage-2 > .row:after{
-		background-image: url(../images/hz_adds/about_02.jpg);
+		background-image: url(../images/hz_adds/03_how@2x.jpg);
 	}
 	.hero-5-homepage-3 > .row:after{
 		background-image: url(../images/hz_adds/about_01.jpg);
@@ -2738,6 +2762,15 @@ only screen and (				min-resolution: 2dppx) {
 	}
 	.project-4-3{
 		background-image: url(../images/portfolio/project-4/fullscreen-section-3@2x.jpg);
+	}
+
+	/* Project 5 */
+	.project-5-1{
+	background-image: url(../images/hz_adds/ethona_images/02_ethona_topcompetitors@2x.jpg);
+	}
+
+	.project-5-3{
+	background-image: url(../images/hz_adds/ethona_images/08_ethona_ebus_fs@2x.jpg);
 	}
 
 	/* Project 6 */
@@ -2818,6 +2851,6 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/slider/slide-7-fs@2x.jpg);
 	}
 	.fs-section-5{
-		background-image: url(../images/hz_adds/AboutUs.jpg);
+		background-image: url(../images/hz_adds/04_about_us@2x.jpg);
 	}
 }
