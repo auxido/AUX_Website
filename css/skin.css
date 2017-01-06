@@ -255,18 +255,24 @@ h5.project-title{
 	opacity: 0.7;
 }
 
-/*.overlay-playhead {
+.overlay-playhead {
 	opacity: 1;
+	transition: opacity .4s ease-out;
+	-moz-transition: opacity .4s ease-out;
+	-webkit-transition: opacity .4s ease-out;
+	-o-transition: opacity .4s ease-out;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
-}*/
-
-.overlay-playhead:hover {
-	opacity: 0;
 	-webkit-transition: all 1000ms cubic-bezier(.165,.84,.44,1) 400ms;
 	transition: all 1000ms cubic-bezier(.165,.84,.44,1) 400ms;
-	-webkit-transform: translateY(125%);
-	transform: translateY(125%);
+}
+
+.playhead:hover .overlay-playhead {
+	opacity: 0;
+	-webkit-transition: all 400ms cubic-bezier(.165,.84,.44,1);
+	transition: all 400ms cubic-bezier(.165,.84,.44,1);
+	-webkit-transform: translateY(150%);
+	transform: translateY(150%);
 }
 
 .overlay-info .project-title, 
@@ -587,6 +593,12 @@ h5.project-title{
 .bkg-auxblack{
 	background-color: #353732 !important; 
 	border-color: #353732 !important;
+}
+
+/* AUX RED */
+.bkg-auxred{
+	background-color: #f74e42 !important; 
+	border-color: #f74e42 !important;
 }
 
 /* AUX WHITE */
