@@ -32,11 +32,326 @@ Copyright: ThemeMountain
 
 -------------------------------------------------------------------*/
 
-.horizon{ opacity:"0"; }
+/* SCROLL BUTTON */
+/*body {
+  background-color: #222;
+  padding: 100px 0 0 0;
+}*/
+/*p {
+  margin-left: -55px;
+}*/
+@-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 30%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+
+ .scroll-btn {
+	bottom: 35px;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.scroll-btn > * {
+	display: inline-block;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #7f8c8d;
+	color: #ffffff;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+	color: #ffffff;
+}
+
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 55px;
+	margin: 0 auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0px solid #f6f9fa;
+	border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+	position: absolute;
+	display: block;
+	top: 29%;
+	left: 53%;
+	width: 5px;
+	height: 5px;
+	margin: -4px 0 0 -4px;
+	background: #f6f9fa;
+	border-radius: 50%;
+	-webkit-animation: ani-mouse 2.5s linear infinite;
+	-moz-animation: ani-mouse 2.5s linear infinite;
+	animation: ani-mouse 2.5s linear infinite;
+}
+
+/* CONTACT HOVER BUTTON */
+.contact-hover-button:hover .bkg-charcoal_2 {
+	background-color: #353732 !important;
+	border-color: #353732 !important;
+}
+
+.contact-hover-button:hover .contact_button_text {
+	color: #f74e42 !important;
+}
+
+.bkg-charcoal_2 {
+	-webkit-transition: all 3000ms cubic-bezier(.165,.84,.44,1);
+	-moz-transition: all 3000ms cubic-bezier(.165,.84,.44,1);
+	-o-transition: all 3000ms cubic-bezier(.165,.84,.44,1);
+	transition: all 3000ms cubic-bezier(.165,.84,.44,1);
+	background-color: #232323;
+	border-color: #232323;
+}
+
+.contact_button_text {
+	-webkit-transition: color 500ms cubic-bezier(.165,.84,.44,1);
+	-moz-transition: color 500ms cubic-bezier(.165,.84,.44,1);
+	-o-transition: color 500ms cubic-bezier(.165,.84,.44,1);
+	transition: color 500ms cubic-bezier(.165,.84,.44,1);
+}
+
+.auxwhite-link:hover .auxwhite {
+	color: #f74e42 !important;
+}
+
+.add-shadow-to-box {
+	box-shadow: 0px 10px 50px #888888;
+}
+
+.add-shadow-to-box-dark {
+	box-shadow: 0px 10px 50px rgba(0,0,0,.40);
+	-webkit-box-shadow: 0px 10px 50px rgba(0,0,0,.40);
+}
+
+.add-shadow-to-box-lighter {
+	box-shadow: 0px 10px 50px rgba(0,0,0,0);
+	-webkit-box-shadow: 0px 10px 50px rgba(0,0,0,0);
+	-webkit-transition: box-shadow 0.4s cubic-bezier(.165,.84,.44,1) !important;
+	-moz-transition: box-shadow 0.4s cubic-bezier(.165,.84,.44,1) !important;
+	-o-transition: box-shadow 0.4s cubic-bezier(.165,.84,.44,1) !important;
+	transition: box-shadow 0.4s cubic-bezier(.165,.84,.44,1) !important;
+}
+
+.add-shadow-to-box-lighter:hover {
+	box-shadow: 0px 10px 50px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0px 10px 50px rgba(0,0,0,.25);
+}
+
+@media only screen and (max-width: 768px) {}
+	.force-boxpadagain {
+		 padding: 3rem !important; 
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.box.xlarge {
+		padding: 1rem !important;
+	}
+}
+
+.hero-4 .hero-content-inner {
+	padding: 3rem !important;
+}
+
+.hero-4>.row:before {
+	width: 0%;
+}
+
+section>.hero-4:before {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	content: "";
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: 0;
+	transition: background-color .4s cubic-bezier(.785, .135, .15, .86);
+	-webkit-transition: background-color .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+section>.hero-4:hover:before {
+	background-color: rgba(0,0,0,.50);
+}
+
+.about-us-heightkiller {
+	height: 0vh !important;
+}
+
+@media only screen and (max-width: 768px) {
+.fullscreen-section .background-on-mobile *, .fullscreen-section.no-overlay.content-below-on-mobile * {
+	color: #f6f9fa;
+	}
+}
 
 /*------------------------------------------------------------------
 [1. Typography]
 */
+
+.kill-box-border {
+	border: 0px solid !important;
+}
+
+.div-link {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.tanline {
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.tanline:after {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 6px;
+  display: inline-block;
+  background-color: #d8cbbc;
+  border-color: #d8cbbc;
+  border: 1px solid #d8cbbc;
+  content: "";
+  z-index: -1;
+}
+
+.hz-link {
+  /*cursor: pointer;*/
+  /*display: inline-block;*/
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  z-index: 1;
+  transition: color .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.hz-link:after {
+  position: absolute;
+  width: 100%;
+  /*top: 0;*/
+  bottom: 0;
+  /*right: 0;*/
+  left: 0;
+  height: 6px;
+  display: inline-block;
+  background-color: #f74e42;
+  border-color: #f74e42;
+  border: 1px solid #f74e42;
+  content: "";
+  -webkit-transform: translate3d(-102%, 0, 0);
+  transform: translate3d(-102%, 0, 0);
+  z-index: -1;
+  transition: -webkit-transform .4s cubic-bezier(.785, .135, .15, .86);
+  transition: transform .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.hz-link:hover:after,
+.hz-link:hover:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+.aux-subheader {
+	letter-spacing: 6px;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.aux-cs-subheader {
+	letter-spacing: 2px;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.align-cs-subheader {
+	margin: 0 0 0 5px;
+}
+
+.case-study-subtitle {
+	text-transform: uppercase;
+	margin: 0 0 20px 5px;
+}
 
 .auxblack {
 	color: #353732 !important;
@@ -48,10 +363,33 @@ Copyright: ThemeMountain
 
 .auxwhite {
 	color: #f6f9fa !important;
+	-webkit-transition-property: background,border-color,color,opacity;
+	-moz-transition-property: background,border-color,color,opacity;
+	-o-transition-property: background,border-color,color,opacity;
+	-ms-transition-property: background,border-color,color,opacity;
+	transition-property: background,border-color,color,opacity;
+	-ms-transition-duration: .4s;
+	transition-duration: .4s;
+}
+
+.div-link .auxwhite:hover {
+	color: #f74e42 !important;;
 }
 
 .color-auxred {
 	color: #f74e42 !important;
+}
+
+.border-auxred {
+	border-color: #f74e42 !important;
+}
+
+.border-auxwhite {
+	border-color: #f6f9fa !important;
+}
+
+.color-charcoal_override {
+	color: #232323 !important;
 }
 
 .font-opensans {
@@ -445,6 +783,11 @@ h5.project-title{
 [2. Background Color & Color Classes]
 */
 
+.bkg-white-override {
+	background-color: #ffffff !important;
+	border-color: #ffffff !important;
+}
+
 /* grey */
 .bkg-grey{
 	background-color: #4e4e4d;
@@ -479,8 +822,8 @@ h5.project-title{
 	color: #333;
 }
 .bkg-charcoal{
-	background-color: #232323; 
-	border-color: #232323;
+	background-color: #232323 !important; 
+	border-color: #232323 !important;
 }
 .bkg-hover-charcoal:hover{
 	background-color: #232323; 
@@ -537,8 +880,8 @@ h5.project-title{
 
 /* red */
 .bkg-red{
-	background-color: #e62739;
-	border-color: #e62739;
+	background-color: #e62739 !important;
+	border-color: #e62739 !important;
 }
 .bkg-hover-red:hover{
 	background-color: #e62739;
@@ -622,6 +965,10 @@ h5.project-title{
 	padding-top: 11rem;
 	padding-bottom: 8rem;
 	background-color: #f6f9fa;
+}
+
+.section-block.replicable-content.about-us-padding {
+	padding-bottom: 11rem !important;
 }
 
 .inverse {
@@ -1193,9 +1540,13 @@ blockquote p {
 	background-image: url(../images/slider/slide-7-fw.jpg);
 }
 
+.hero-3-temp {
+	background-image: url(../images/hz_adds/07_landr@2x.jpg);
+}
+
 /* Hero 3 */
 .hero-3-ethona{
-	background-image: url(../images/hz_adds/06_ethona_case_study.jpg);
+	background-image: url(../images/hz_adds/06_ethona_case_study@2x.jpg);
 }
 .white-card {
 	background-color: #f6f9fa !important;
@@ -1470,6 +1821,209 @@ blockquote p {
 	}
 }
 
+/*Ethona Opportuntiy*/
+.ethona-opportunity .background-image {
+	background-position: 110% center !important;
+	background-size: 75% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.ethona-opportunity .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+.ethona-opportunity-1 {
+	background-image: url(../images/hz_adds/ethona_images/11_theopportunity_fs.jpg);
+}
+
+/* Ethona EBUS */
+.ethona-ebus .background-image {
+	background-position: 110% center !important;
+	background-size: 65% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.ethona-ebus .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+.ethona-ebus-1 {
+	background-image: url(../images/hz_adds/ethona_images/12_ethona_ebus.jpg);
+}
+
+/* Ethona Audio Aesthetic */
+.ethona-audio-aesthetic .background-image {
+	background-position: 600% center !important;
+	background-size: 90% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.ethona-audio-aesthetic .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+.ethona-audio-aesthetic-1 {
+	background-image: url(../images/hz_adds/ethona_images/16_ethona_audioaesthetic.jpg);
+}
+
+/* Ethona Spotify */
+.ethona-spotify .background-image {
+	background-position: 200% center !important;
+	background-size: 90% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.ethona-spotify .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+/* Ethona EVA APP */
+
+@media only screen and (max-width: 768px) {
+	.center-on-mobile {
+	text-align: center;
+	}
+
+	.center-on-mobile .mejs-container {
+	margin: auto;
+	}
+}
+
+.ethona-spotify-1 {
+	background-image: url(../images/hz_adds/ethona_images/13_ethona_spotify.jpg);
+}
+
+/* Ethona EVA Sounds*/
+
+.ethona-eva .section__image {
+	position: relative;
+	background-image: url(../images/hz_adds/ethona_images/phone_assistant-module_frame_02.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	width: 330px;
+	margin: 60px auto 0
+}
+
+.ethona-eva .section__image:before {
+	display: block;
+	content: '';
+	width: 100%;
+	padding-top: 161.0687%
+}
+
+.ethona-eva .section__image>.aspect-ratio__content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+@media (min-width: 812px) {
+	.ethona-eva .section__image {
+		margin: 0 auto
+	}
+}
+
+@media (min-width: 1024px) {
+	.ethona-eva .section__image {
+		width: 370px
+	}
+}
+
+@media (min-width: 1440px) {
+	.ethona-eva .section__image {
+		width: 400px
+	}
+}
+
+.ethona-eva .section__image__embed {
+	position: absolute;
+	top: 60px;
+	left: 52px;
+	width: 227px;
+	z-index: 1;
+}
+
+@media (min-width: 1024px) {
+	.ethona-eva .section__image__embed {
+		top: 67px;
+		left: 58px;
+		width: 255px
+	}
+}
+
+@media (min-width: 1440px) {
+	.ethona-eva .section__image__embed {
+		top: 71px;
+		left: 62px;
+		width: 277px
+	}
+}
+
+.ethona-eva .section__image__embed img {
+	display: block
+}
+
+/* UX SHOWCASE CASE STUDY */
+
+/*KILL PADDING FOR PHONE EFFECT*/
+.kill_fs_padding {
+	padding-top: 0rem !important;
+	padding-bottom: 0rem !important;
+}
+
+/* UI SOUND PORTFOLIO PHONE EFFECT */
+.UI-soundportfolio .background-image {
+	background-position: 125% center !important;
+	background-size: 75% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.UI-soundportfolio .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+.google-duo-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/02_uxshowcase_duo_fs@2x.jpg);
+}
+
+.google-allo-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/03_uxshowcase_allo_fs@2x.jpg);
+}
+
+.iphone-reported-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/04_uxshowcase_reported_fs@2x.jpg);
+}
+
+.iphone-eva-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/05_uxshowcase_eva_fs@2x.jpg);
+}
+
+.iphone-driver-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/06_uxshowcase_driver_fs@2x.jpg);
+}
+
+.google-YTK-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/07_uxshowcase_ytk_fs@2x.jpg);
+}
+
+.google-hangouts-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/08_uxshowcase_hangouts_fs@2x.jpg);
+}
+
 /* Project 5 */
 .project-5 .background-image {
 	background-position: 125% center !important;
@@ -1701,8 +2255,8 @@ blockquote p {
 	}
 
 	.fullscreen-section.no-overlay .fullscreen-inner {
-		/*background: rgba(246,249,250, 0) !important;*/
-		background: rgba(247,78,66,1);
+		background: rgba(246,249,250, 0) !important;
+		/*background: rgba(247,78,66,1);*/
 	}
 }
 
@@ -2590,14 +3144,14 @@ a.disabled .text-line{
 }
 .tabs .tab-nav > li a{
 	border-bottom-color: #ddd;
-	color: #999;
+	color: #f6f9fa !important;
 }
 .tabs .tab-nav > li a .text-line{
 	background-color: #999;
 }
 .tabs .tab-nav > li.active a{
 	border-bottom-color: #232323;
-	color: #555;
+	color: #f6f9fa !important;
 }
 .tabs .tab-nav > li a.active .text-line{
 	background-color: #232323;
@@ -2715,6 +3269,10 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/slider/slide-7-fw@2x.jpg);
 	}
 
+	.hero-3-temp {
+		background-image: url(../images/hz_adds/07_landr@2x.jpg);
+	}
+
 	.hero-3-ethona{
 		background-image: url(../images/hz_adds/06_ethona_case_study@2x.jpg);
 	}
@@ -2789,6 +3347,55 @@ only screen and (				min-resolution: 2dppx) {
 	}
 	.project-4-3{
 		background-image: url(../images/portfolio/project-4/fullscreen-section-3@2x.jpg);
+	}
+
+	/* Ethona Opportunity */
+	.ethona-opportunity-1 {
+	background-image: url(../images/hz_adds/ethona_images/11_theopportunity_fs@2x.jpg);
+	}
+
+	/* Ethona EBUS */
+	.ethona-ebus-1 {
+	background-image: url(../images/hz_adds/ethona_images/12_ethona_ebus@2x.jpg);
+	}
+
+	/* Ethona Audio Aesthetic */
+	.ethona-audio-aesthetic-1 {
+	background-image: url(../images/hz_adds/ethona_images/16_ethona_audioaesthetic@2x.jpg);
+	}
+
+	/* Ethona Spotify */
+	.ethona-spotify-1 {
+	background-image: url(../images/hz_adds/ethona_images/13_ethona_spotify@2x.jpg);
+	}
+
+	/* UI SOUND PORTFOLIO @2X */
+	.google-duo-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/02_uxshowcase_duo_fs@2x.jpg);
+	}
+
+	.google-allo-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/03_uxshowcase_allo_fs@2x.jpg);
+	}
+
+	.iphone-reported-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/04_uxshowcase_reported_fs@2x.jpg);
+	}
+
+	.iphone-eva-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/05_uxshowcase_eva_fs@2x.jpg);
+	}
+
+	.iphone-driver-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/06_uxshowcase_driver_fs@2x.jpg);
+	}
+
+	.google-YTK-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/07_uxshowcase_ytk_fs@2x.jpg);
+	}
+
+	.google-hangouts-phone-mockup {
+	background-image: url(../images/hz_adds/ux_showcase_images/08_uxshowcase_hangouts_fs@2x.jpg);
 	}
 
 	/* Project 5 */

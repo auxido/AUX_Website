@@ -6,3 +6,5 @@ RewriteEngine On
 ErrorDocument 403 http://auxnyc.com/403.html
 ErrorDocument 404 http://auxnyc.com/403.html
 ErrorDocument 500 http://auxnyc.com/403.html
+
+redirect 301 /casestudies/ethona.html http://auxnyc.com/casestudies/ethona-case-study.html
