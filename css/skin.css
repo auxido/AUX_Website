@@ -249,7 +249,7 @@ section>.hero-4:hover:before {
 
 @media only screen and (max-width: 768px) {
 	.about-us-heightkiller {
-		height: 100vh !important;
+		height: 50vh !important;
 	}
 }
 
