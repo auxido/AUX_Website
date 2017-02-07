@@ -248,10 +248,20 @@ section>.hero-4:hover:before {
 }
 
 @media only screen and (max-width: 768px) {
+	.about-us-heightkiller {
+		height: 100vh !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
 .fullscreen-section .background-on-mobile *, .fullscreen-section.no-overlay.content-below-on-mobile * {
 	color: #f6f9fa;
 	}
 }
+
+/*.sonify-box {
+	height: 30rem;
+}*/
 
 /*------------------------------------------------------------------
 [1. Typography]
@@ -328,6 +338,42 @@ section>.hero-4:hover:before {
   transform: translate3d(0, 0, 0)
 }
 
+.tanline-link {
+  /*cursor: pointer;*/
+  /*display: inline-block;*/
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  z-index: 1;
+  transition: color .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.tanline-link:after {
+  position: absolute;
+  width: 100%;
+  /*top: 0;*/
+  bottom: 0;
+  /*right: 0;*/
+  left: 0;
+  height: 6px;
+  display: inline-block;
+  background-color: #d8cbbc;
+  border-color: #d8cbbc;
+  border: 1px solid #d8cbbc;
+  content: "";
+  -webkit-transform: translate3d(-102%, 0, 0);
+  transform: translate3d(-102%, 0, 0);
+  z-index: -1;
+  transition: -webkit-transform .4s cubic-bezier(.785, .135, .15, .86);
+  transition: transform .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.tanline-link:hover:after,
+.tanline-link:hover:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
 .aux-subheader {
 	letter-spacing: 6px;
 	font-size: 18px;
@@ -372,8 +418,8 @@ section>.hero-4:hover:before {
 	transition-duration: .4s;
 }
 
-.div-link .auxwhite:hover {
-	color: #f74e42 !important;;
+.div-link:hover .auxwhite {
+	color: #f74e42 !important;
 }
 
 .color-auxred {
