@@ -387,7 +387,7 @@ section>.hero-4:hover:before {
 
 .black-box-link:after {
   position: absolute;
-  width: 98%;
+/*  width: 98%;*/
   top: 0;
   bottom: 0;
   right: 0;
