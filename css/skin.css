@@ -374,6 +374,44 @@ section>.hero-4:hover:before {
   transform: translate3d(0, 0, 0)
 }
 
+.black-box-link {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  z-index: 1;
+  transition: color .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.black-box-link:after {
+  position: absolute;
+  width: 98%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: inline-block;
+  background-color: #f6f9fa;
+  content: "";
+  -webkit-transform: translate3d(-102%, 0, 0);
+  transform: translate3d(-102%, 0, 0);
+  z-index: -1;
+  transition: -webkit-transform .4s cubic-bezier(.785, .135, .15, .86);
+  transition: transform .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.black-box-link:hover {
+  color: #f74e42;
+}
+
+.black-box-link:hover:after,
+.black-box-link:hover:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
 .aux-subheader {
 	letter-spacing: 6px;
 	font-size: 18px;
