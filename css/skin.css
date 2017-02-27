@@ -183,6 +183,15 @@ Copyright: ThemeMountain
 	color: #f74e42 !important;
 }
 
+.auxblack-link:hover .auxblack {
+	color: #f74e42 !important;
+}
+
+.bkg-grey-ultralight {
+	background-color: #f4f4f4 !important;
+	border-color: #f4f4f4 !important;
+}
+
 .add-shadow-to-box {
 	box-shadow: 0px 10px 50px #888888;
 }
@@ -262,6 +271,60 @@ section>.hero-4:hover:before {
 /*.sonify-box {
 	height: 30rem;
 }*/
+
+/* DELIVERABLE WEB PAGES WITH ROUNDS */
+.tabs .tab-nav > li .tabs-deliverables {
+	font-size: 2.2rem;
+	letter-spacing: 6px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Raleway', 'Lato', 'Helvetica Neue', sans-serif;
+	color: #666;
+}
+
+.tabs .tab-nav > li.active .tabs-deliverables, 
+.tabs .tab-nav > li.active .tabs-deliverables:hover {
+	/*border-bottom-color: #f6f9fa;*/
+	border-bottom-color: rgba(0,0,0,0);
+}
+
+.tabs .tab-nav > li .tabs-deliverables, 
+.tabs .tab-nav > li .tabs-deliverables:hover {
+	border-bottom-color: rgba(0,0,0,0);
+}
+
+.tabs .tab-nav > li .tabs-deliverables:hover {
+	color: rgba(246, 249, 250, 0.5);
+}
+
+.accordion li .accordion-deliverables{
+	border-bottom-color: #999;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid;
+	color: #666;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.accordion li .accordion-deliverables:hover{
+	color: rgba(246, 249, 250, 0.5);
+	border-bottom-color: rgba(246, 249, 250, 0.5);
+}
+
+.accordion li.active .accordion-deliverables {
+	border-bottom-color: #f6f9fa;
+	color: #f6f9fa;
+	border-bottom: 2px solid;
+}
+
+.asset-title {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 /*------------------------------------------------------------------
 [1. Typography]
@@ -625,6 +688,10 @@ h6{
 	color: #666;
 }
 
+.blog-readmore {
+	margin: 0 0 1rem 0 !important;
+}
+
 /* Blog Titles & Text */
 h2.post-title{
 	margin-bottom: 3rem;
@@ -632,7 +699,7 @@ h2.post-title{
 }
 .blog-masonry .grid-item h2.post-title{
 	margin-bottom: 0;
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	text-transform: none;
 	display: block;
 }
@@ -891,8 +958,8 @@ h5.project-title{
 
 /* charcoal */
 .bkg-charcoal-light{
-	background-color: #333; 
-	border-color: #333;
+	background-color: #333 !important; 
+	border-color: #333 !important;
 }
 .bkg-hover-charcoal-light:hover{
 	background-color: #333; 
@@ -934,8 +1001,8 @@ h5.project-title{
 .bkg-charcoal .accordion li.active a,
 .bkg-charcoal .tabs li.active a,
 .bkg-charcoal .tabs.vertical li.active a{
-	border-bottom-color: #f74e42;
-	color: #f74e42;
+	/*border-bottom-color: #f74e42;*/
+	/*color: #f74e42;*/
 }
 .bkg-charcoal a:hover .text-line,
 .bkg-charcoal .accordion li a:hover .text-line,
@@ -1328,12 +1395,15 @@ h5.project-title{
 
 /* Header Background on Scroll Color */
 .header.header-background .header-inner{
-	background: #232323;
-	border-bottom: 1px solid #232323;
+	/*background: #232323;
+	border-bottom: 1px solid #232323;*/
+	background: #111;
+	border-bottom: 1px solid #111;
 }
 .header.header-background .navigation .sub-menu,
 .header.header-background .navigation .mega-sub-menu{
-	border-top: 1px solid #232323;
+	/*border-top: 1px solid #232323;*/
+	border-top: 1px solid #111;
 }
 .header-background .navigation > ul > li > a{
 	color: #999;
@@ -1391,7 +1461,8 @@ h5.project-title{
 @media only screen and (max-width: 960px){
 	.header, 
 	.header .header-inner{
-		background: #232323;
+		/*background: #232323;*/
+		background: #111;
 	}
 	.header-inner .navigation-show a{
 		color: #666;
@@ -1616,7 +1687,7 @@ blockquote.border {
 }
 
 blockquote p {
-	color: #f6f9fa !important;
+	/*color: #f6f9fa !important;*/
 }
 
 /* Hero 2 */
@@ -3228,7 +3299,7 @@ a.disabled .text-line{
 }
 .tabs .tab-nav > li a{
 	border-bottom-color: #ddd;
-	color: #f6f9fa !important;
+	/*color: #f6f9fa !important;*/
 }
 .tabs .tab-nav > li a .text-line{
 	background-color: #999;
