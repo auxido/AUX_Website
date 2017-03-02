@@ -272,6 +272,25 @@ section>.hero-4:hover:before {
 	height: 30rem;
 }*/
 
+.soundscape-indepth {
+	border-bottom-color: #f6f9fa;
+	color: #f6f9fa;
+	border-bottom: 2px solid;
+	padding: 0 0 1rem 0;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.soundscape-indepth-minus {
+	margin-right: 1rem;
+}
+
 /* DELIVERABLE WEB PAGES WITH ROUNDS */
 .tabs .tab-nav > li .tabs-deliverables {
 	font-size: 2.2rem;
@@ -433,6 +452,85 @@ section>.hero-4:hover:before {
 
 .tanline-link:hover:after,
 .tanline-link:hover:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+.airbnb-cq {
+	background-color: #fd5c63;
+	color: #fd5c63;
+}
+
+.airbnb-cq:hover {
+	color: #fd5c63 !important;
+}
+
+.tiffanyco-cq {
+	background-color: #60dfe5;
+	color: #60dfe5;
+}
+
+.tiffanyco-cq:hover {
+	color: #60dfe5 !important;
+}
+
+.android-cq {
+	background-color: #a4c639;
+	color: #a4c639;
+}
+
+.android-cq:hover {
+	color: #a4c639 !important;
+}
+
+.facebook-cq {
+	background-color: #3b5998;
+	color: #3b5998;
+}
+
+.facebook-cq:hover {
+	color: #3b5998 !important;
+}
+
+.audioux-cq {
+	background-color: #f74e42;
+	color: #f74e42;
+}
+
+.audioux-cq:hover {
+	color: #f74e42 !important;
+}
+
+.colorquiz {
+  text-decoration: none;
+  cursor: pointer;
+  /*display: inline-block;*/
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  z-index: 1;
+  transition: color .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.colorquiz:after {
+  position: absolute;
+/*  width: 98%;*/
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /*display: inline-block;*/
+  background-color: #f6f9fa;
+  content: "";
+  -webkit-transform: translate3d(102%, 0, 0);
+  transform: translate3d(102%, 0, 0);
+  z-index: -1;
+  transition: -webkit-transform .4s cubic-bezier(.785, .135, .15, .86);
+  transition: transform .4s cubic-bezier(.785, .135, .15, .86);
+}
+
+.colorquiz:hover:after,
+.colorquiz:hover:hover {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0)
 }
