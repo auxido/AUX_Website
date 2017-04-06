@@ -272,6 +272,12 @@ section>.hero-4:hover:before {
 	height: 30rem;
 }*/
 
+@media only screen and (max-width: 768px) {
+	.blogpost-h5 {
+		color: #232323;
+	}
+}
+
 .soundscape-indepth {
 	border-bottom-color: #f6f9fa;
 	color: #f6f9fa;
