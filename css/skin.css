@@ -345,6 +345,14 @@ section>.hero-4:hover:before {
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.blog-address {
+	margin: 0rem 0rem 0rem !important;
+}
+
+.blog_logo_tag {
+	max-width: 10%;
+}
+
 /*------------------------------------------------------------------
 [1. Typography]
 */
