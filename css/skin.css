@@ -1818,6 +1818,9 @@ blockquote p {
 .white-card {
 	background-color: #f6f9fa !important;
 }
+.hero-3-spincar{
+	background-image: url(../images/hz_adds/08_spincar_case_study@2x.jpg);
+}
 
 /* Hero 4 */
 .hero-4-homepage-1{
@@ -2105,6 +2108,59 @@ blockquote p {
 	background-image: url(../images/hz_adds/ethona_images/11_theopportunity_fs.jpg);
 }
 
+
+/*SpinCar Opportuntiy*/
+.spincar-opportunity .background-image {
+	background-position: 140% center !important;
+	background-size: 75% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.spincar-opportunity .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+.spincar-opportunity-1 {
+background-image: url(../images/hz_adds/spincar_images/02_theopportunity_fs@2x.jpg);
+}
+
+/* SpinCar Built for Enterprise */
+.spincar-built-for-enterprise .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.spincar-built-for-enterprise .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+.spincar-built-for-enterprise-1 {
+background-image: url(../images/hz_adds/spincar_images/03_builtforenterprise_fs@2x.jpg);
+}
+
+/* Ethona EBUS */
+.spincar-ebus .background-image {
+	background-position: 110% center !important;
+	background-size: 65% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.spincar-ebus .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
+.spincar-ebus-1 {
+	background-image: url(../images/hz_adds/spincar_images/04_spincar_ebus@2x.jpg);
+}
+
+
 /* Ethona EBUS */
 .ethona-ebus .background-image {
 	background-position: 110% center !important;
@@ -2162,6 +2218,10 @@ blockquote p {
 	.center-on-mobile .mejs-container {
 	margin: auto;
 	}
+}
+
+.center-mejs .mejs-container {
+	margin: auto;
 }
 
 .ethona-spotify-1 {
@@ -3411,14 +3471,14 @@ a.disabled .text-line{
 }
 .tabs .tab-nav > li a{
 	border-bottom-color: #ddd;
-	/*color: #f6f9fa !important;*/
+	color: #f6f9fa !important;
 }
 .tabs .tab-nav > li a .text-line{
 	background-color: #999;
 }
 .tabs .tab-nav > li.active a{
 	border-bottom-color: #232323;
-	color: #f6f9fa !important;
+	color: #dddddd !important;
 }
 .tabs .tab-nav > li a.active .text-line{
 	background-color: #232323;
@@ -3544,6 +3604,10 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/hz_adds/06_ethona_case_study@2x.jpg);
 	}
 
+	.hero-3-spincar{
+	background-image: url(../images/hz_adds/08_spincar_case_study@2x.jpg);
+	}
+
 	.hero-4-homepage-1{
 		background-image: url(../images/hz_adds/02_why@2x.jpg);
 	}
@@ -3619,6 +3683,11 @@ only screen and (				min-resolution: 2dppx) {
 	/* Ethona Opportunity */
 	.ethona-opportunity-1 {
 	background-image: url(../images/hz_adds/ethona_images/11_theopportunity_fs@2x.jpg);
+	}
+
+	/* SpinCar Opportunity */
+	.spincar-opportunity-1 {
+	background-image: url(../images/hz_adds/spincar_images/02_theopportunity_fs@2x.jpg);
 	}
 
 	/* Ethona EBUS */
