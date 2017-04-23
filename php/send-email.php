@@ -61,11 +61,13 @@
 	// $email_content .= "HOST IP:\n".$_SERVER['SERVER_ADDR']."\n";
 
 	// Spam Killers
-	if(isset($_POST['mname'])) die();
+	// if (isset($_POST['mname'])) {
+	// 	die();
+	// }
 
 	$comments = trim($message); // trim() to strip off whitespace from beginning and end, like spaces and linebreaks
 	if (strlen($comments) < 15 || substr_count($comments, " ") < 3) {
-		died('Your message is too short.');
+		die('DIE SPAM DIE');
 	}
 
 // Check if sent
