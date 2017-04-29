@@ -1,0 +1,6 @@
+<Files "ui-sound-portfolio.html">
+  AuthType Basic
+  AuthName "Username and password required"
+  AuthUserFile "/home7/auxnycco/.htpasswds/public_html/casestudies/passwd"
+  Require valid-user
+</Files>
