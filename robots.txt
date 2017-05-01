@@ -1,9 +1,10 @@
 User-agent: *
-Disallow: /images/
-Disallow: /mediaelement/
-Disallow: /php/
-Disallow: /client/
-Disallow: /css/
-Disallow: /downloads/
-Disallow: /fonts/
+Disallow: /images
+Disallow: /mediaelement
+Disallow: /php
+Disallow: /client
+Disallow: /css
+Disallow: /downloads
+Disallow: /fonts
+Disallow: /casestudies/ui-sound-portfolio
 Sitemap: http://auxnyc.com/sitemap.xml
