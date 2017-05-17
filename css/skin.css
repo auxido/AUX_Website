@@ -2348,7 +2348,11 @@ background-image: url(../images/hz_adds/spincar_images/03_builtforenterprise_fs@
 }
 
 .google-hangouts-phone-mockup {
-	background-image: url(../images/hz_adds/ux_showcase_images/08_uxshowcase_hangouts_fs@2x.jpg);
+	background-image: url(../images/hz_adds/ux_showcase_images/10_uxshowcase_thor_fs@2x.jpg);
+}
+
+.spincar-bg-uxcasestudy {
+	background-image: url(../images/hz_adds/ux_showcase_images/11_uxshowcase_spincar_fs@2x.jpg);
 }
 
 /* Project 5 */
@@ -3731,7 +3735,7 @@ only screen and (				min-resolution: 2dppx) {
 	}
 
 	.google-hangouts-phone-mockup {
-	background-image: url(../images/hz_adds/ux_showcase_images/08_uxshowcase_hangouts_fs@2x.jpg);
+	background-image: url(../images/hz_adds/ux_showcase_images/10_uxshowcase_thor_fs@2x.jpg);
 	}
 
 	/* Project 5 */
