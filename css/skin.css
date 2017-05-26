@@ -268,9 +268,86 @@ section>.hero-4:hover:before {
 	}
 }
 
+.artist-work {
+	/*float: left;*/
+	/*width: 100%;*/
+	position: relative;
+	min-height: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: 'Raleway', 'Lato', 'Helvetica Neue', sans-serif;
+}
+
+.artist-name-blog {
+	font-size: 6rem;
+	font-weight: 700;
+	color: #1a1a1a; 
+	display: inline;
+}
+
+.album-name-blog {
+	font-size: 4.8rem;
+	line-height: 1.25;
+	font-style: italic;
+	color: #1a1a1a;
+	word-wrap: break-word;
+}
+
+
 /*.sonify-box {
 	height: 30rem;
 }*/
+
+.center-tms-caption {
+	position:relative !important;
+}
+
+.end-mark {
+	display: block;
+	margin: 0 auto;
+	width: 6rem;
+	height: 6rem;
+}
+
+hr.blog-hr {
+	border: 0;
+	border-bottom: 1px solid #f74e42;
+	margin: 42px 0;
+	padding: 0;
+	clear: both;
+}
+
+.blog-poast-p {
+	line-height: 34px;
+	font-size: 18px;
+	font-weight: 100;
+	color: #424242;
+}
+
+.blog-poast-lead {
+	color: #000;
+	font-weight: 700;
+	letter-spacing: .008em;
+	margin-top: 1.6em;
+}
+
+.blog-poast-section {
+	padding-top: 0rem !important;
+}
+
+
+.blog-poast-section-no-lead {
+	padding-top: 5rem !important;
+}
+
+.blog-quote {
+	font-style: italic;
+}
 
 @media only screen and (max-width: 768px) {
 	.blogpost-h5 {
