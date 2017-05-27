@@ -376,6 +376,12 @@ hr.blog-hr {
 	margin-top: 1.6em;
 }
 
+.blog-poast-lead-index {
+	color: #000;
+	font-weight: 700;
+	letter-spacing: .008em;
+}
+
 .blog-poast-section {
 	padding-top: 0rem !important;
 }
@@ -393,6 +399,10 @@ hr.blog-hr {
 	.blogpost-h5 {
 		color: #232323;
 	}
+}
+
+.main-blog-padding {
+	padding-bottom: 7rem !important;
 }
 
 .soundscape-indepth {
