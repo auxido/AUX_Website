@@ -8,3 +8,35 @@ ErrorDocument 404 http://auxnyc.com/403.html
 ErrorDocument 500 http://auxnyc.com/403.html
 
 redirect 301 /casestudies/ethona.html http://auxnyc.com/casestudies/ethona-case-study.html
+
+RewriteCond %{HTTP_HOST} ^www\.auxnyc\.com$
+RewriteRule ^/?$ "http\:\/\/auxnyc\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* ? [F,L]
+
+RewriteCond %{HTTP_USER_AGENT} ^.*Chrome/44.*$
+RewriteRule .* - [F]
+
+SetEnvIfNoCase User-Agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36" bad_user
+Deny from env=bad_user
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+
+# Your document html
+  ExpiresByType text/html "access plus 0 seconds"
+
+# Media: images, video, audio
+  ExpiresByType audio/ogg "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType video/mp4 "access plus 1 month"
+  ExpiresByType video/ogg "access plus 1 month"
+  ExpiresByType video/webm "access plus 1 month"
+
+# CSS and JavaScript
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+</IfModule>
