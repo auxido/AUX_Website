@@ -1,5 +1,4 @@
 # Block Indexing
-
 Options -Indexes
 
 RewriteEngine On
@@ -12,11 +11,18 @@ redirect 301 /casestudies/ethona.html http://auxnyc.com/casestudies/ethona-case-
 RewriteCond %{HTTP_HOST} ^www\.auxnyc\.com$
 RewriteRule ^/?$ "http\:\/\/auxnyc\.com\/" [R=301,L]
 
+# Pretty URLs
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
 
 RewriteCond %{HTTP_USER_AGENT} ^.*Chrome/44.*$
 RewriteRule .* - [F]
+
+# Parse PHP
+AddType application/x-httpd-php .php .htm .html
 
 SetEnvIfNoCase User-Agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36" bad_user
 Deny from env=bad_user
