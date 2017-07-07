@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="css/skin.css" />
 
 	<!-- JS -->
-	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
 	<!-- Horizon -->
 	<script type="text/javascript" src="js/jquery.tm.horizon.min.js"></script>
@@ -84,14 +84,9 @@
 			</ul>
 		</nav>
 		<!-- MOBILE SOCIAL LINKS -->
-		<div class="side-navigation-footer">
-			<ul class="social-list list-horizontal">
-				<li><a href="https://www.instagram.com/AUX_NYC/" target="_blank" class="icon-instagram small"></a></li>
-				<li><a href="https://soundcloud.com/auxnyc" target="_blank" class="icon-soundcloud small"></a></li>
-				<li><a href="https://twitter.com/AUX_NYC" target="_blank" class="icon-twitter small"></a></li>
-			</ul>
-			&copy; 2017 AUXNYC.
-		</div>
+		<?
+			include($_SERVER['DOCUMENT_ROOT'] . "/includes/mobile-socials.php");
+		?>
 	</aside>
 	<!-- Side Navigation Menu End -->
 
@@ -174,7 +169,7 @@
 					<div class="section-block replicable-content about-us-padding hz-link">
 						<div class="row">
 							<div data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="0.9" class="column width-12 center">
-								<a class="fade-location" href="about-us.html">
+								<a class="fade-location" href="about-us">
 								<span class="div-link"></span>
 									<h4 class="auxblack aux-cs-subheader case-study-subtitle">- We are The next evolution of audio branding - </h4>
 									<h1 class="auxblack weight-bold mb-30">About Us</h1>
@@ -197,7 +192,7 @@
 							<div class="column width-6">
 								<div data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="0.5" class="hero-content horizon">
 									<div class="hero-content-inner center-on-mobile box add-shadow-to-box-lighter bkg-auxwhite case-study-box kill-box-border hz-link">
-									<a class="fade-location" href="casestudies/ethona-case-study.html">
+									<a class="fade-location" href="casestudies/ethona-case-study">
 									<span class="div-link"></span>
 										<!-- <h6 class="auxblack case-study-subtitle">Sound for the dynamic woman</h6> -->
 										<h2 class="auxblack">Ethona Active</h2>
@@ -215,7 +210,7 @@
 							<div class="column width-6">
 								<div data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="0.5" class="hero-content horizon">
 									<div class="hero-content-inner center-on-mobile box add-shadow-to-box-lighter bkg-auxwhite case-study-box kill-box-border hz-link">
-									<a class="fade-location" href="casestudies/spincar-case-study.html">
+									<a class="fade-location" href="casestudies/spincar-case-study">
 									<span class="div-link"></span>
 										<!-- <h6 class="auxblack case-study-subtitle">Sound for the dynamic woman</h6> -->
 										<h2 class="auxblack">SpinCar</h2>
@@ -383,7 +378,7 @@
 							</div>
 							<div class="column width-8">
 								<ul class="social-list list-horizontal share">
-									<li class="auxblack-link"><a class="auxblack aux-cs-subheader fade-location" href="blog/blog.html">See all of our blog posts /</a></li>
+									<li class="auxblack-link"><a class="auxblack aux-cs-subheader fade-location" href="blog/blog">See all of our blog posts /</a></li>
 								</ul>
 							</div>
 						</div>
@@ -401,7 +396,7 @@
 										<article class="post">
 											<div class="post-media">
 												<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
-													<a class="overlay-link" href="blog/creating-memory-phase.html">
+													<a class="overlay-link" href="blog/creating-memory-phase">
 															<img src="blog/images/post-05/03_post_05_header@2x.jpg" alt=""/>
 														<span class="overlay-info">
 															<span>
@@ -419,13 +414,13 @@
 												</div>
 											</div>
 											<div class="post-content">
-												<h3 class="blog-poast-lead-index"><a href="blog/creating-memory-phase.html">Creating Memory Phase</a></h3>
+												<h3 class="blog-poast-lead-index"><a href="blog/creating-memory-phase">Creating Memory Phase</a></h3>
 												<div class="post-info">
 													<span class="post-date hide show-on-mobile">07 June 2017 /</span>
 												</div>
 												<p class="blog-poast-p">A behind the scenes look at the creation of the Memory Phase EP.  How Audio UX is disrupting what an audio branding agency can be with an EP of original music built for summer.</p>
 												<ul class="social-list list-horizontal share">
-													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/creating-memory-phase.html">Read More /</a></li>
+													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/creating-memory-phase">Read More /</a></li>
 												</ul>
 											</div>
 										</article>
@@ -447,7 +442,7 @@
 										<article class="post">
 											<div class="post-media">
 												<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
-													<a class="overlay-link" href="blog/albums-you-may-have-missed.html">
+													<a class="overlay-link" href="blog/albums-you-may-have-missed">
 															<img src="blog/images/post-03/06_post_03_header@2x.jpg" alt=""/>
 														<span class="overlay-info">
 															<span>
@@ -465,13 +460,13 @@
 												</div>
 											</div>
 											<div class="post-content">
-												<h2 class="post-title"><a href="blog/albums-you-may-have-missed.html">5 Albums You May Have Missed Last Year</a></h2>
+												<h2 class="post-title"><a href="blog/albums-you-may-have-missed">5 Albums You May Have Missed Last Year</a></h2>
 												<div class="post-info">
 													<span class="post-date hide show-on-mobile">01 May 2017 /</span>
 												</div>
 												<p class="blog-readmore">The frenzy and chaos at the top of the music charts sometimes leaves some of the best new albums in the dust. Here are a couple of lesser-known gems to throw onto your spotify list this Spring.</p>
 												<ul class="social-list list-horizontal share">
-													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/albums-you-may-have-missed.html">Read More /</a></li>
+													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/albums-you-may-have-missed">Read More /</a></li>
 												</ul>
 											</div>
 										</article>
@@ -482,7 +477,7 @@
 										<article class="post">
 											<div class="post-media">
 												<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
-													<a class="overlay-link" href="blog/the-future-of-music-by-you.html">
+													<a class="overlay-link" href="blog/the-future-of-music-by-you">
 															<img src="blog/images/post-02/06_post_02_header@2x.jpg" alt="The Future of Music: Created By You"/>
 														<span class="overlay-info">
 															<span>
@@ -500,13 +495,13 @@
 												</div>
 											</div>
 											<div class="post-content">
-												<h2 class="post-title"><a href="blog/the-future-of-music-by-you.html">The Future of Music: Crafted By You</a></h2>
+												<h2 class="post-title"><a href="blog/the-future-of-music-by-you">The Future of Music: Crafted By You</a></h2>
 												<div class="post-info">
 													<span class="post-date hide show-on-mobile">05 Apr 2017 /</span>
 												</div>
 												<p class="blog-readmore">5 of our favorite music tech events in NYC and beyond.</p>
 												<ul class="social-list list-horizontal share">
-													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/the-future-of-music-by-you.html">Read More /</a></li>
+													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/the-future-of-music-by-you">Read More /</a></li>
 												</ul>
 											</div>
 										</article>
@@ -518,7 +513,7 @@
 										<article class="post">
 											<div class="post-media">
 												<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
-													<a class="overlay-link" href="blog/the-ux-of-a.html">
+													<a class="overlay-link" href="blog/the-ux-of-a">
 															<img src="blog/images/post-01/02_post_01_header@2x.jpg" alt="The UX of A"/>
 														<span class="overlay-info">
 															<span>
@@ -536,13 +531,13 @@
 												</div>
 											</div>
 											<div class="post-content">
-												<h2 class="post-title"><a href="blog/the-ux-of-a.html">The UX of A</a></h2>
+												<h2 class="post-title"><a href="blog/the-ux-of-a">The UX of A</a></h2>
 												<div class="post-info">
 													<span class="post-date hide show-on-mobile">03 Mar 2017 /</span>
 												</div>
 												<p class="blog-readmore">Why we believe every brand should be thinking about strategic audio the same way they think about strategic visuals.</p>
 												<ul class="social-list list-horizontal share">
-													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/the-ux-of-a.html">Read More /</a></li>
+													<li class="auxblack-link"><a class="auxblack fade-location" href="blog/the-ux-of-a">Read More /</a></li>
 												</ul>
 											</div>
 										</article>
@@ -565,7 +560,7 @@
 				<section id="contact" class="section-block replicable-content bkg-white-override contact-2">
 					<div data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="0.2" class="row horizon">
 						<div class="column width-12">
-							<h2 class="weight-bold mb-30 auxblack">Get In Touch</h2>
+							<h2 class="weight-bold mb-30 auxblack testerr">Get In Touch</h2>
 						</div>
 						<div class="column width-7">
 							<div class="contact-form-container">
@@ -629,29 +624,10 @@
 			</div>
 			<!-- Content End -->
 
-			<!-- Footer 1-->
-			<footer class="footer-1 footer reveal-side-navigation">
-				<div class="footer-bottom">
-					<div class="row">
-						<div class="column width-12">
-							<div class="footer-bottom-inner">
-								<ul class="social-list list-horizontal pull-left clear-float-on-mobile left">
-									<li><a href="https://www.instagram.com/AUX_NYC/" target="_blank"><span class="icon-instagram"></span>Instagram</a>/</li>
-									<li><a href="https://soundcloud.com/auxnyc" target="_blank"><span class="icon-soundcloud"></span>Soundcloud</a>/</li>
-									<li><a href="https://twitter.com/AUX_NYC" target="_blank"><span class="icon-twitter"></span>Twitter</a></li>
-								</ul>
-								<nav class="navigation pull-right clear-float-on-mobile">
-									<ul>
-										<li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Back Top</a>/</li>
-										<li><a href="mailto:info@auxnyc.com" class="no-page-fade"><span class="icon-right-open-mini"></span>Hire AUX</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-					</div> 
-				</div>
-			</footer>
-			<!-- Footer 1 End -->
+			<!-- Footer -->
+			<?php
+			include($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php");
+			?>
 
 		</div>
 	</div>

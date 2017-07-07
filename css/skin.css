@@ -31,6 +31,10 @@ Copyright: ThemeMountain
 23. Resolution Media Queries
 
 -------------------------------------------------------------------*/
+.logo-footer-move {
+	position: relative;
+	top: -10px;
+}
 
 .squarebutton {
 	width: 50px;

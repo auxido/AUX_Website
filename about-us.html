@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="css/skin.css" />
 
 	<!-- JS -->
-	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
 	<!-- Horizon -->
 	<script type="text/javascript" src="js/jquery.tm.horizon.min.js"></script>
@@ -85,14 +85,9 @@
 			</ul>
 		</nav>
 		<!-- MOBILE SOCIAL LINKS -->
-		<div class="side-navigation-footer">
-			<ul class="social-list list-horizontal">
-				<li><a href="https://www.instagram.com/AUX_NYC/" target="_blank" class="icon-instagram small"></a></li>
-				<li><a href="https://soundcloud.com/auxnyc" target="_blank" class="icon-soundcloud small"></a></li>
-				<li><a href="https://twitter.com/AUX_NYC" target="_blank" class="icon-twitter small"></a></li>
-			</ul>
-			&copy; 2017 AUXNYC.
-		</div>
+		<?
+			include($_SERVER['DOCUMENT_ROOT'] . "/includes/mobile-socials.php");
+		?>
 	</aside>
 	<!-- Side Navigation Menu End -->
 
@@ -263,27 +258,9 @@
 			<!-- Content End -->
 
 			<!-- Footer 1-->
-			<footer class="footer-1 footer reveal-side-navigation">
-				<div class="footer-bottom">
-					<div class="row">
-						<div class="column width-12">
-							<div class="footer-bottom-inner">
-								<ul class="social-list list-horizontal pull-left clear-float-on-mobile left">
-									<li><a href="https://www.instagram.com/AUX_NYC/" target="_blank"><span class="icon-instagram"></span>Instagram</a>/</li>
-									<li><a href="https://soundcloud.com/auxnyc" target="_blank"><span class="icon-soundcloud"></span>Soundcloud</a>/</li>
-									<li><a href="https://twitter.com/AUX_NYC" target="_blank"><span class="icon-twitter"></span>Twitter</a></li>
-								</ul>
-								<nav class="navigation pull-right clear-float-on-mobile">
-									<ul>
-										<li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Back Top</a>/</li>
-										<li><a href="mailto:info@auxnyc.com" class="no-page-fade"><span class="icon-right-open-mini"></span>Hire AUX</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-					</div> 
-				</div>
-			</footer>
+			<?
+			include($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php");
+			?>
 			<!-- Footer 1 End -->
 
 		</div>

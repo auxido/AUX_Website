@@ -1,7 +1,7 @@
 <?php
 // Your Account API & List ID
-$api_key = ""; // YOUR-API-KEY-HERE
-$list_id = ""; // YOUR-LIST-ID-HERE
+$api_key = "fe520b0ee18d434e3504b08dfdf621b5-us16"; // YOUR-API-KEY-HERE
+$list_id = "e31adfbe7f"; // YOUR-LIST-ID-HERE
 
 // Check $recipient
 if($recipient === '' || $list_id === '' ) {
@@ -21,13 +21,13 @@ $MailChimp = new MailChimp($api_key);
 
 try {
 	$result = $MailChimp->call('lists/subscribe', array(
-	    'id'                => $list_id,
-	    'email'             => array( 'email' => $_POST['email']),
-	    'merge_vars'        => array('FNAME' => $_POST['fname']),
-	    'double_optin'      => false,
-	    'update_existing'   => false,
-	    'replace_interests' => false,
-	    'send_welcome'      => true,
+		'id'                => $list_id,
+		'email'             => array( 'email' => $_POST['email']),
+		'merge_vars'        => array('FNAME' => $_POST['fname']),
+		'double_optin'      => false,
+		'update_existing'   => false,
+		'replace_interests' => false,
+		'send_welcome'      => true,
 	));
 	returnAndExitAjaxResponse(
 		constructAjaxResponseArray(
