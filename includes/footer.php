@@ -26,15 +26,15 @@
 										<h4>From the Blog</h4>
 										<ul class="list-group large">
 											<li>
-												<a href="http://auxnyc.com/blog/creating-memory-phase.html" target="_blank">Creating Memory Phase </a>
+												<a href="http://auxnyc.com/blog/audio-qr" target="_blank">Audio QR</a>
+												<span class="post-info"><span class="post-date">07 August 2017</span></span>
+											</li>
+											<li>
+												<a href="http://auxnyc.com/blog/creating-memory-phase" target="_blank">Creating Memory Phase </a>
 												<span class="post-info"><span class="post-date">07 Jul 2017</span></span>
 											</li>
 											<li>
-												<a href="http://auxnyc.com/blog/albums-you-may-have-missed.html" target="_blank">5 Albums You May Have Missed Last Year</a>
-												<span class="post-info"><span class="post-date">01 May 2017</span></span>
-											</li>
-											<li>
-												<a href="http://auxnyc.com/blog/the-ux-of-a.html" target="_blank">The UX of A</a>
+												<a href="http://auxnyc.com/blog/the-ux-of-a" target="_blank">The UX of A</a>
 												<span class="post-info"><span class="post-date">03 March 2017</span></span>
 											</li>
 										</ul>

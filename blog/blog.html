@@ -43,6 +43,8 @@
 
 	<!-- Google Analytics -->
 	<script>
+	var host = window.location.hostname;
+	if(host != "localhost") {
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -50,7 +52,7 @@
 
 	  ga('create', 'UA-90603755-1', 'auto');
 	  ga('send', 'pageview');
-
+	}
 	</script>
 
 </head>
@@ -158,6 +160,39 @@
 
 					<!-- Content Inner -->
 					<div class="column width-12 content-inner blog-wide">
+
+					<!-- POST 05 -->
+						<article data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="0.2" class="post horizon">
+							<div class="post-media">
+								<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
+									<a class="overlay-link" href="audio-qr">
+										<img src="images/post-04/00_post_05_header@2x.jpg" alt=""/>
+										<span class="overlay-info">
+											<span>
+												<span>
+													Music Tech
+												</span>
+											</span>
+										</span>
+									</a>
+									<div class="post-info post-info-over show hide-on-mobile">
+										<div class="post-info-inner">
+											<div class="post-date"><span class="day">07</span><span class="month-year">August '17</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="post-content">
+								<h2 class="post-title"><a href="audio-qr">Audio QR</a></h2>
+								<div class="post-info">
+									<span class="post-date hide show-on-mobile">07 August 2017 /</span>
+								</div>
+								<p class="blog-readmore lead">Audio UX will be there to brand the future of Audio QR.</p>
+								<ul class="social-list list-horizontal share">
+									<li class="auxblack-link"><a class="auxblack fade-location" href="audio-qr">Read More /</a></li>
+								</ul>
+							</div>
+						</article>
 
 					<!-- POST 04 -->
 						<article data-animate-in="transY:100px;delay:0;duration:1000ms;" data-threshold="0.2" class="post horizon">
