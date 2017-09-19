@@ -2339,6 +2339,19 @@ background-image: url(../images/hz_adds/spincar_images/03_builtforenterprise_fs@
 	}
 }
 
+/* Ethona Spotify */
+.ethona-contest .background-image {
+	background-position: 200% center !important;
+	background-size: 90% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.ethona-contest .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
 /* Ethona EVA APP */
 
 @media only screen and (max-width: 768px) {
@@ -2357,6 +2370,10 @@ background-image: url(../images/hz_adds/spincar_images/03_builtforenterprise_fs@
 
 .ethona-spotify-1 {
 	background-image: url(../images/hz_adds/ethona_images/13_ethona_spotify.jpg);
+}
+
+.ethona-contest-1 {
+	background-image: url(../images/hz_adds/ethona_images/17_ethona_contest.jpg);
 }
 
 /* Ethona EVA Sounds*/

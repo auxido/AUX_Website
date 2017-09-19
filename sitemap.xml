@@ -8,70 +8,52 @@
 
 <url>
   <loc>http://auxnyc.com/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/about-us</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/casestudies/ethona-case-study</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/casestudies/spincar-case-study</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/blog/blog</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/blog/audio-qr</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/blog/creating-memory-phase</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/blog/albums-you-may-have-missed</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/blog/the-ux-of-a</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/casestudies/ethona-case-study.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/casestudies/spincar-case-study.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://auxnyc.com/index.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://auxnyc.com/about-us.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://auxnyc.com/casestudies/ethona-case-study.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://auxnyc.com/casestudies/spincar-case-study.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://auxnyc.com/blog/blog.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://auxnyc.com/blog/creating-memory-phase.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://auxnyc.com/blog/albums-you-may-have-missed.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://auxnyc.com/blog/the-future-of-music-by-you.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://auxnyc.com/blog/the-ux-of-a.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://auxnyc.com/index.html</loc>
+  <lastmod>2017-06-07T05:21:41+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 </urlset>
