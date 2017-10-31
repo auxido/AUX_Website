@@ -26,16 +26,16 @@
 										<h4>From the Blog</h4>
 										<ul class="list-group large">
 											<li>
+												<a href="https://www.brandingmag.com/2017/10/25/sonic-branding-is-dead-enter-the-audio-user-experience/" target="_blank">Sonic Branding is Dead</a>
+												<span class="post-info"><span class="post-date">25 October 2017</span></span>
+											</li>
+											<li>
 												<a href="http://auxnyc.com/blog/audio-qr" target="_blank">Audio QR</a>
 												<span class="post-info"><span class="post-date">07 August 2017</span></span>
 											</li>
 											<li>
 												<a href="http://auxnyc.com/blog/creating-memory-phase" target="_blank">Creating Memory Phase </a>
 												<span class="post-info"><span class="post-date">07 Jul 2017</span></span>
-											</li>
-											<li>
-												<a href="http://auxnyc.com/blog/the-ux-of-a" target="_blank">The UX of A</a>
-												<span class="post-info"><span class="post-date">03 March 2017</span></span>
 											</li>
 										</ul>
 									</div>
@@ -78,7 +78,8 @@
 								<ul class="social-list list-horizontal pull-left clear-float-on-mobile left">
 									<li><a href="https://www.instagram.com/AUX_NYC/" target="_blank"><span class="icon-instagram"></span>Instagram</a>/</li>
 									<li><a href="https://soundcloud.com/auxnyc" target="_blank"><span class="icon-soundcloud"></span>Soundcloud</a>/</li>
-									<li><a href="https://twitter.com/AUX_NYC" target="_blank"><span class="icon-twitter"></span>Twitter</a></li>
+									<li><a href="https://twitter.com/AUX_NYC" target="_blank"><span class="icon-twitter"></span>Twitter</a>/</li>
+									<li><a href="https://www.linkedin.com/company/11034975/" target="_blank"><span class="icon-linkedin"></span>LinkedIn</a></li>
 								</ul>
 								<nav class="navigation pull-right clear-float-on-mobile">
 									<ul>
