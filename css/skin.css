@@ -248,11 +248,12 @@ Copyright: ThemeMountain
 	-webkit-box-shadow: 0px 10px 50px rgba(0,0,0,.25);
 }
 
-@media only screen and (max-width: 768px) {}
+/* MOBILE BOX PADDING */
+/*@media only screen and (max-width: 768px) {
 	.force-boxpadagain {
 		 padding: 3rem !important; 
 	}
-}
+}*/
 
 @media only screen and (max-width: 768px) {
 	.box.xlarge {
@@ -2352,6 +2353,19 @@ background-image: url(../images/hz_adds/spincar_images/03_builtforenterprise_fs@
 	}
 }
 
+/* Ethona EP */
+.ethona-ep .background-image {
+	background-position: 200% center !important;
+	background-size: 90% !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.ethona-ep .background-image {
+	background-position: 100% center !important;
+	background-size: 100% !important;
+	}
+}
+
 /* Ethona EVA APP */
 
 @media only screen and (max-width: 768px) {
@@ -2374,6 +2388,10 @@ background-image: url(../images/hz_adds/spincar_images/03_builtforenterprise_fs@
 
 .ethona-contest-1 {
 	background-image: url(../images/hz_adds/ethona_images/17_ethona_contest.jpg);
+}
+
+.ethona-ep-1 {
+	background-image: url(../images/hz_adds/ethona_images/18_ethona_EP.jpg);
 }
 
 /* Ethona EVA Sounds*/
@@ -3855,6 +3873,11 @@ only screen and (				min-resolution: 2dppx) {
 	/* Ethona Spotify */
 	.ethona-spotify-1 {
 	background-image: url(../images/hz_adds/ethona_images/13_ethona_spotify@2x.jpg);
+	}
+
+	/* Ethona Spotify */
+	.ethona-ep-1 {
+	background-image: url(../images/hz_adds/ethona_images/18_ethona_EP@2x.jpg);
 	}
 
 	/* UI SOUND PORTFOLIO @2X */
