@@ -2525,6 +2525,10 @@ background-image: url(../images/hz_adds/spincar_images/03_builtforenterprise_fs@
 	background-image: url(../images/hz_adds/ux_showcase_images/12_uxshowcase_wonderboom_fs@2x.jpg);
 }
 
+.meetup-bg-uxcasestudy {
+	background-image: url(../images/hz_adds/ux_showcase_images/14_uxshowcase_meetup_fs@2x.jpg);
+}
+
 /* Project 5 */
 .project-5 .background-image {
 	background-position: 125% center !important;
