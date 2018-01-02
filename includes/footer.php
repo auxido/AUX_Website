@@ -83,6 +83,8 @@
 								</ul>
 								<nav class="navigation pull-right clear-float-on-mobile">
 									<ul>
+										<li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Terms of Use</a>/</li>
+										<li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Privacy Policy</a>/</li>
 										<li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Back Top</a>/</li>
 										<li><a href="mailto:info@auxnyc.com" class="no-page-fade"><span class="icon-right-open-mini"></span>Hire AUX</a></li>
 									</ul>
